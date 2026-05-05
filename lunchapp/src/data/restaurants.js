@@ -1,0 +1,36 @@
+export const RESTAURANTS = [
+  { id:1,  name:"Madam Kwan's",           cuisine:"Malay",    halal:true,  price:2, priceLabel:"RM18–35",  mall:"MVM",     floor:"Ground Floor", desc:"Classic nasi lemak and Malaysian favourites" },
+  { id:2,  name:"Little Penang Kafe",     cuisine:"Malay",    halal:true,  price:2, priceLabel:"RM15–28",  mall:"MVM",     floor:"LG Floor",     desc:"Penang hawker classics in a relaxed setting" },
+  { id:3,  name:"Nasi Kandar Pelita",     cuisine:"Indian",   halal:true,  price:1, priceLabel:"RM8–18",   mall:"MVM",     floor:"Ground Floor", desc:"24-hour mamak staple with roti and curries" },
+  { id:4,  name:"Village Park Nasi Lemak",cuisine:"Malay",    halal:true,  price:1, priceLabel:"RM10–20",  mall:"MVM",     floor:"LG Floor",     desc:"Famous for its fluffy nasi lemak and sambal" },
+  { id:5,  name:"Rakuzen",                cuisine:"Japanese", halal:false, price:3, priceLabel:"RM45–90",  mall:"Gardens", floor:"Level 3",      desc:"Upscale Japanese with premium sushi sets" },
+  { id:6,  name:"Sushi Zanmai",           cuisine:"Japanese", halal:false, price:2, priceLabel:"RM30–55",  mall:"MVM",     floor:"Third Floor",  desc:"Conveyor belt sushi and donburi bowls" },
+  { id:7,  name:"Ichiban Boshi",          cuisine:"Japanese", halal:false, price:2, priceLabel:"RM25–50",  mall:"Gardens", floor:"Level 3",      desc:"Ramen, udon and Japanese sets" },
+  { id:8,  name:"Genki Sushi",            cuisine:"Japanese", halal:true,  price:2, priceLabel:"RM20–40",  mall:"MVM",     floor:"Third Floor",  desc:"Halal-certified sushi on a conveyor belt" },
+  { id:9,  name:"Wondermama",             cuisine:"Fusion",   halal:true,  price:2, priceLabel:"RM15–30",  mall:"Gardens", floor:"Level 1",      desc:"Modern Malaysian comfort food with a twist" },
+  { id:10, name:"Seoul Garden",           cuisine:"Korean",   halal:true,  price:2, priceLabel:"RM30–45",  mall:"MVM",     floor:"Third Floor",  desc:"Korean BBQ buffet with halal meats" },
+  { id:11, name:"On The Table",           cuisine:"Western",  halal:true,  price:2, priceLabel:"RM20–40",  mall:"MVM",     floor:"Third Floor",  desc:"Casual western grill — steaks, pasta, burgers" },
+  { id:12, name:"TGI Fridays",            cuisine:"Western",  halal:true,  price:3, priceLabel:"RM40–70",  mall:"MVM",     floor:"Third Floor",  desc:"American-style casual dining and cocktails" },
+  { id:13, name:"The Apartment",          cuisine:"Western",  halal:true,  price:3, priceLabel:"RM45–80",  mall:"Gardens", floor:"Level 3",      desc:"Relaxed premium brunch and western mains" },
+  { id:14, name:"Zen Japanese",           cuisine:"Japanese", halal:false, price:3, priceLabel:"RM50–100", mall:"Gardens", floor:"Level 5",      desc:"Authentic kaiseki-style Japanese cuisine" },
+  { id:15, name:"Kim Gary",              cuisine:"Chinese",  halal:false, price:1, priceLabel:"RM12–22",  mall:"MVM",     floor:"Third Floor",  desc:"Hong Kong-style cafe with baked rice and tea" },
+  { id:16, name:"Canton-i",              cuisine:"Chinese",  halal:false, price:2, priceLabel:"RM25–50",  mall:"MVM",     floor:"Ground Floor", desc:"Cantonese dim sum and roast meats" },
+  { id:17, name:"Chilis Grill & Bar",    cuisine:"Western",  halal:true,  price:3, priceLabel:"RM40–75",  mall:"MVM",     floor:"Ground Floor", desc:"Tex-Mex classics — fajitas, ribs, burgers" },
+  { id:18, name:"Secret Recipe",         cuisine:"Cafe",     halal:true,  price:1, priceLabel:"RM14–25",  mall:"MVM",     floor:"Ground Floor", desc:"Malaysian café chain — cakes, pasta, rice" },
+  { id:19, name:"Manhattan Fish Market", cuisine:"Western",  halal:true,  price:2, priceLabel:"RM28–55",  mall:"MVM",     floor:"Third Floor",  desc:"Seafood baskets, chowders and fish & chips" },
+  { id:20, name:"Pasta Zanmai",          cuisine:"Italian",  halal:false, price:2, priceLabel:"RM25–45",  mall:"MVM",     floor:"Third Floor",  desc:"Japanese-Italian fusion pasta and risotto" },
+  { id:21, name:"Kenny Rogers Roasters", cuisine:"Western",  halal:true,  price:1, priceLabel:"RM12–22",  mall:"MVM",     floor:"Ground Floor", desc:"Roast chicken plates with sides" },
+  { id:22, name:"Nando's",               cuisine:"Western",  halal:true,  price:2, priceLabel:"RM22–40",  mall:"MVM",     floor:"Third Floor",  desc:"Peri-peri flame-grilled chicken" },
+  { id:23, name:"Absolute Thai",         cuisine:"Thai",     halal:true,  price:2, priceLabel:"RM20–38",  mall:"MVM",     floor:"Third Floor",  desc:"Authentic Thai curries, rice and noodles" },
+  { id:24, name:"OldTown White Coffee",  cuisine:"Cafe",     halal:true,  price:1, priceLabel:"RM10–20",  mall:"MVM",     floor:"Ground Floor", desc:"Ipoh white coffee, toasts and nasi lemak" },
+  { id:25, name:"Sushi King",            cuisine:"Japanese", halal:true,  price:1, priceLabel:"RM12–25",  mall:"MVM",     floor:"Third Floor",  desc:"Affordable halal Japanese sushi sets" },
+  { id:26, name:"The Social",            cuisine:"Western",  halal:false, price:3, priceLabel:"RM50–90",  mall:"Gardens", floor:"Level 6",      desc:"Craft burgers, beers and a lively atmosphere" },
+  { id:27, name:"Opium KL",              cuisine:"Chinese",  halal:false, price:3, priceLabel:"RM45–90",  mall:"Gardens", floor:"Level 3",      desc:"Stylish Cantonese fine dining" },
+  { id:28, name:"Ishin Japanese Dining", cuisine:"Japanese", halal:false, price:3, priceLabel:"RM60–120", mall:"Gardens", floor:"Level 5",      desc:"High-end kaiseki and omakase" },
+  { id:29, name:"Pasta Fresca",          cuisine:"Italian",  halal:true,  price:2, priceLabel:"RM25–48",  mall:"Gardens", floor:"Level 3",      desc:"Halal Italian pasta and wood-fired pizza" },
+  { id:30, name:"Din Tai Fung",          cuisine:"Chinese",  halal:false, price:2, priceLabel:"RM30–55",  mall:"Gardens", floor:"Level 3",      desc:"World-famous xiao long bao and Taiwanese cuisine" },
+];
+
+export const CUISINES = ["All", "Malay", "Chinese", "Japanese", "Korean", "Western", "Indian", "Thai", "Italian", "Fusion", "Cafe"];
+export const PRICE_LABELS = { 1: "Budget", 2: "Mid-range", 3: "Premium" };
+export const PRICE_RANGES = { 1: "Under RM15", 2: "RM15–40", 3: "RM40+" };
